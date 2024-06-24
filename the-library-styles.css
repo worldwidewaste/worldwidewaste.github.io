@@ -12,10 +12,22 @@ td {
 
 .hover-glow {
   color: lightgray;
-  transition: 0.5s;
+  background-image: url("media/noise.gif");
+  background-size: 256px;
+  background-color: rgb(0, 0, 0);
+  background-blend-mode: multiply;
 }
 
 .hover-glow:hover {
   color: white;
-  background-color: #000524;
+  background-color: #000944;
+}
+
+.icon {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.icon:hover {
+  outline: 2px solid white;
 }
